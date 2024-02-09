@@ -11,7 +11,10 @@ spec:
     namespace: kube-system
   project: default
   source:
-    path: ./charts/grafana
+    helm:
+      valueFiles:
+        - /manifest/grafana/values.yaml
+    path: /personal-charts/chart/grafana
     repoURL: https://github.com/abdullah-jaffer/helm-charts.git
     targetRevision: HEAD
   syncPolicy:
