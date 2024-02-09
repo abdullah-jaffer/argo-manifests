@@ -10,7 +10,7 @@ spec:
     namespace: default
   project: default
   source:
-    path: /manifests/
+    path: ./manifests
     repoURL: https://github.com/abdullah-jaffer/argo-manifests.git
     targetRevision: HEAD
   syncPolicy:
