@@ -13,7 +13,7 @@ spec:
   source:
     helm:
       valueFiles:
-        - manifest/grafana/values.yaml
+        - /manifest/grafana/values.yaml
     path: chart/grafana
     repoURL: https://github.com/abdullah-jaffer/helm-charts.git
     targetRevision: HEAD

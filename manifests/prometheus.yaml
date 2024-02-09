@@ -13,7 +13,7 @@ spec:
   source:
     helm:
       valueFiles:
-        - manifest/prometheus/values.yaml
+        - /manifest/prometheus/values.yaml
     path: chart/prometheus
     repoURL: https://github.com/abdullah-jaffer/helm-charts.git
     targetRevision: HEAD
